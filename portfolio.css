@@ -1,0 +1,57 @@
+body{
+    color: #52616b;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #c9d6df;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    min-height: 400px;
+    background-image: url(img/bg1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -57px;
+    padding-top: 100px;
+}
+a{
+    padding: 20px;
+}
+hr{
+    width: 40%;
+}
+.border-right{
+    border-right: 1px solid whitesmoke;
+}
+#footer{
+    opacity: 0.5;
+    color: #f4f9f4;
+}
+.bg-dark{
+    transition: 500ms ease;
+    color: #f0f5f9;
+    background: transparent !important;
+}
+.bg-dark.scrolled{
+    background: #52616b !important;
+}
+
+
+/* change color */
+.fa-instagram-square:hover{
+    transition: 0.5s ease;
+    color: #527fa4;
+}
+.fa-facebook-square:hover{
+    transition: 0.5s ease;
+    color: #3b5998;
+}
+.fa-twitter-square:hover{
+    transition: 0.5s ease;
+    color: #00aced;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

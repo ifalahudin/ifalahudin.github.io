@@ -1,0 +1,52 @@
+body{
+    background-image: url(img/bg.jpg);
+
+    color: #757575;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+a,span{
+    color: #757575;
+    transition: .25s;
+}
+a:hover{
+    color: #757575;
+    text-decoration: none;
+    opacity: .75;
+}
+#base{
+    background-color: #ececec;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.card{
+    border: unset;
+    background-color: whitesmoke;
+}
+#about{
+    border: 2px solid #757575;
+    margin: 0px 12px;
+    width: 95px;
+    text-align: center;
+}
+hr{
+    border-top: 1.5px solid #757575;
+    width: 20%;
+    margin-inline-start: 0px;
+}
+.profile{
+    background: url(img/bg1.jpg);
+    border-radius: 8px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.profile > img::before{
+    filter: blur(8px);
+}
