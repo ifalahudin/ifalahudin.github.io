@@ -1,0 +1,80 @@
+body {
+	color: #52616b;
+	font-family: "Ubuntu", sans-serif;
+	background-color: #c9d6df;
+	padding: 0;
+	margin: 0;
+}
+#header {
+	min-height: 400px;
+	background-image: url(/img/bg1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -57px;
+	padding-top: 100px;
+}
+a {
+	color: #52616b;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #52616b;
+	opacity: 0.75;
+}
+p {
+	text-align: justify;
+}
+hr {
+	width: 40%;
+}
+.col-sm-4 {
+	display: block;
+}
+.border-right {
+	border-right: 1px solid #f4f9f4;
+}
+.btn {
+	color: #52616a;
+	border: 1px solid #52616b;
+	background: linear-gradient(120deg, #52616b, #c9d6df, #c9d6df, #52616b);
+	background-size: 200%;
+	transition: 0.5s;
+}
+.btn-outline-secondary:hover {
+	background-position: right;
+}
+#footer {
+	opacity: 0.5;
+	color: #f4f9f4;
+	padding: 20px;
+}
+#kiri {
+	border-right: 1px solid #52616b;
+}
+#kiri,
+#kanan {
+	padding: 50px;
+}
+#headerPict {
+	width: 60%;
+}
+
+/* change color */
+.fa-instagram-square:hover {
+	opacity: 1;
+	transition: 0.5s ease;
+	color: #527fa4;
+}
+.fa-facebook-square:hover {
+	opacity: 1;
+	transition: 0.5s ease;
+	color: #3b5998;
+}
+.fa-twitter-square:hover {
+	opacity: 1;
+	transition: 0.5s ease;
+	color: #00aced;
+}

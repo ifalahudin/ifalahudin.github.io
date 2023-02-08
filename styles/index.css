@@ -1,0 +1,173 @@
+body {
+	color: #52616b;
+	font-family: "Ubuntu", sans-serif;
+	background-color: #c9d6df;
+	padding: 0;
+	margin: 0;
+}
+#header {
+	min-height: 400px;
+	background-image: url(/img/bg1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -57px;
+	padding-top: 100px;
+}
+.border-left {
+	border-left: 2px solid #757575;
+}
+.border-right {
+	border-right: 2px solid #757575;
+}
+li {
+	cursor: pointer;
+}
+.align-right {
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	padding: 20px;
+}
+.navbar-brand {
+	padding: 0px;
+}
+hr {
+	width: 40%;
+	text-align: center !important;
+}
+.border-right {
+	border-right: 1px solid whitesmoke;
+}
+#footer {
+	opacity: 0.5;
+	color: #c9d6df;
+}
+.bg-dark {
+	transition: 500ms ease;
+	color: #f0f5f9;
+	background: transparent !important;
+}
+.bg-dark.scrolled {
+	background: #52616b !important;
+}
+.btn {
+	color: #52616a;
+	border: 1px solid #52616b;
+	background: linear-gradient(120deg, #52616b, #c9d6df, #c9d6df, #52616b);
+	background-size: 200%;
+	transition: 0.5s;
+}
+.btn-outline-secondary:hover {
+	background-position: right;
+}
+#majalah-slide {
+	max-width: 60%;
+	margin: 0 auto;
+}
+#content-picture:hover {
+	background-color: #c9d6df;
+	display: fit-content;
+	border-radius: 0.25rem;
+	padding: 40px;
+	box-shadow: 5px 5px 5px 5px rgba(65, 65, 65, 0.25);
+	transform: scale(1.09);
+	transition: 0.25s;
+}
+#content-picture > hr:hover {
+	border-top: 1px solid #c9d6df;
+}
+
+/* change color */
+.fa-instagram-square:hover {
+	transition: 0.5s ease;
+	color: #527fa4;
+}
+.fa-facebook-square:hover {
+	transition: 0.5s ease;
+	color: #3b5998;
+}
+.fa-twitter-square:hover {
+	transition: 0.5s ease;
+	color: #00aced;
+}
+
+/*scrollbar */
+::-webkit-scrollbar {
+	width: 0px;
+}
+#scrollpath {
+	position: fixed;
+	width: 10px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.05);
+}
+#progressbar {
+	position: fixed;
+	width: 10px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: linear-gradient(to top, #008aff, #00ffe7);
+	animation: prgressbar 5s linear infinite;
+}
+#progressbar:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, #008aff, #00ffe7);
+	filter: blur(10px);
+}
+#progressbar:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, #008aff, #00ffe7);
+	filter: blur(30px);
+}
+
+@keyframes prgressbar {
+	0%,
+	100% {
+		filter: hue-rotate(0deg);
+	}
+	50% {
+		filter: hue-rotate(360deg);
+	}
+}
+
+.card:before,
+.card:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+	background-size: 700%;
+	width: calc(100% + 1px);
+	height: calc(100% + 1px);
+	z-index: -1 !important;
+	animation: animate 30s linear infinite;
+}
+.card:after {
+	filter: blur(20px);
+}
+@keyframes animate {
+	0%,
+	100% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 500% 0;
+	}
+}
